@@ -1175,6 +1175,10 @@ extension FolioReaderCenter: FolioReaderPageDelegate {
 extension FolioReaderCenter: FolioReaderChapterListDelegate {
 
     func chapterList(_ chapterList: FolioReaderChapterList, didSelectRowAtIndexPath indexPath: IndexPath, withTocReference reference: FRTocReference) {
+        didSelectChapter(at: indexPath, withTocReference: reference)
+    }
+    
+    public func didSelectChapter(at indexPath: IndexPath, withTocReference reference: FRTocReference) {
         let item = findPageByResource(reference)
         
         if item < totalPages {
@@ -1189,6 +1193,10 @@ extension FolioReaderCenter: FolioReaderChapterListDelegate {
     }
     
     func chapterList(didDismissedChapterList chapterList: FolioReaderChapterList) {
+        didDismissedChapterList()
+    }
+    
+    public func didDismissedChapterList() {
         updateCurrentPage()
         
         // Move to #fragment

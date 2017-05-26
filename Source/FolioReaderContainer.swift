@@ -15,7 +15,7 @@ public var book: FRBook!
 /// Reader container
 open class FolioReaderContainer: UIViewController {
     var centerNavigationController: UINavigationController!
-	var centerViewController: FolioReaderCenter!
+	public var centerViewController: FolioReaderCenter!
     var audioPlayer: FolioReaderAudioPlayer!
     var shouldHideStatusBar = true
     var shouldRemoveEpub = true
