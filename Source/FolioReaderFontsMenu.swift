@@ -9,7 +9,8 @@
 import UIKit
 
 public enum FolioReaderFont: Int {
-	case andada = 0
+    case interFaceDaMa = 0
+	case andada
 	case lato
 	case lora
 	case raleway
@@ -17,6 +18,7 @@ public enum FolioReaderFont: Int {
 	public static func folioReaderFont(fontName: String) -> FolioReaderFont? {
 		var font: FolioReaderFont?
 		switch fontName {
+        case "interFaceDaMa": font = .interFaceDaMa
 		case "andada"		: font = .andada
 		case "lato"			: font = .lato
 		case "lora"			: font = .lora
@@ -28,6 +30,7 @@ public enum FolioReaderFont: Int {
 
 	public var cssIdentifier: String {
 		switch self {
+        case .interFaceDaMa: return "interFaceDaMa"
 		case .andada	: return "andada"
 		case .lato		: return "lato"
 		case .lora		: return "lora"
@@ -151,15 +154,17 @@ class FolioReaderFontsMenu: UIViewController, SMSegmentViewDelegate, UIGestureRe
         fontName.delegate = self
         fontName.tag = 2
 
+        fontName.addSegmentWithTitle("InterFaceDaMa", onSelectionImage: nil, offSelectionImage: nil)
         fontName.addSegmentWithTitle("Andada", onSelectionImage: nil, offSelectionImage: nil)
         fontName.addSegmentWithTitle("Lato", onSelectionImage: nil, offSelectionImage: nil)
         fontName.addSegmentWithTitle("Lora", onSelectionImage: nil, offSelectionImage: nil)
         fontName.addSegmentWithTitle("Raleway", onSelectionImage: nil, offSelectionImage: nil)
         
-        fontName.segments[0].titleFont = UIFont(name: "Andada-Regular", size: 18)!
-        fontName.segments[1].titleFont = UIFont(name: "Lato-Regular", size: 18)!
-        fontName.segments[2].titleFont = UIFont(name: "Lora-Regular", size: 18)!
-        fontName.segments[3].titleFont = UIFont(name: "Raleway-Regular", size: 18)!
+        fontName.segments[0].titleFont = UIFont(name: "InterFaceDaMa-Regular", size: 14)!
+        fontName.segments[1].titleFont = UIFont(name: "Andada-Regular", size: 14)!
+        fontName.segments[2].titleFont = UIFont(name: "Lato-Regular", size: 14)!
+        fontName.segments[3].titleFont = UIFont(name: "Lora-Regular", size: 14)!
+        fontName.segments[4].titleFont = UIFont(name: "Raleway-Regular", size: 14)!
     
 		fontName.selectSegmentAtIndex(FolioReader.currentFont.rawValue)
         menuView.addSubview(fontName)

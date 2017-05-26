@@ -61,6 +61,10 @@
 		1A9590151D397C1300D56699 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9590141D397C1300D56699 /* Images.xcassets */; };
 		1A9590171D397CAF00D56699 /* FolioReaderKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1A9590161D397CAF00D56699 /* FolioReaderKit.podspec */; };
 		3AD5EEB91D9433C100E42810 /* FolioReaderWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */; };
+		6606AA591ED80F250099874D /* InterFaceDaMa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6606AA551ED80F250099874D /* InterFaceDaMa-Bold.ttf */; };
+		6606AA5A1ED80F250099874D /* InterFaceDaMa-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6606AA561ED80F250099874D /* InterFaceDaMa-BoldItalic.ttf */; };
+		6606AA5B1ED80F250099874D /* InterFaceDaMa-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6606AA571ED80F250099874D /* InterFaceDaMa-Italic.ttf */; };
+		6606AA5C1ED80F250099874D /* InterFaceDaMa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6606AA581ED80F250099874D /* InterFaceDaMa-Regular.ttf */; };
 		B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0D699161D035FA2003B4CCD /* FolioReaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */; };
 		B0D6991B1D035FA2003B4CCD /* FolioReaderKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6991A1D035FA2003B4CCD /* FolioReaderKitTests.swift */; };
@@ -139,6 +143,10 @@
 		1A9590141D397C1300D56699 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A9590161D397CAF00D56699 /* FolioReaderKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FolioReaderKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderWebView.swift; sourceTree = "<group>"; };
+		6606AA551ED80F250099874D /* InterFaceDaMa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterFaceDaMa-Bold.ttf"; sourceTree = "<group>"; };
+		6606AA561ED80F250099874D /* InterFaceDaMa-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterFaceDaMa-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6606AA571ED80F250099874D /* InterFaceDaMa-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterFaceDaMa-Italic.ttf"; sourceTree = "<group>"; };
+		6606AA581ED80F250099874D /* InterFaceDaMa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterFaceDaMa-Regular.ttf"; sourceTree = "<group>"; };
 		B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FolioReaderKit.h; sourceTree = "<group>"; };
 		B0D699101D035FA2003B4CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -261,6 +269,7 @@
 		1A958F271D397BE900D56699 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				6606AA541ED80F250099874D /* InterFaceDaMa */,
 				1A958F281D397BE900D56699 /* Andada */,
 				1A958F2D1D397BE900D56699 /* Lato */,
 				1A958F321D397BE900D56699 /* Lora */,
@@ -311,6 +320,17 @@
 				1A958F3B1D397BE900D56699 /* Raleway-Regular.ttf */,
 			);
 			path = Raleway;
+			sourceTree = "<group>";
+		};
+		6606AA541ED80F250099874D /* InterFaceDaMa */ = {
+			isa = PBXGroup;
+			children = (
+				6606AA551ED80F250099874D /* InterFaceDaMa-Bold.ttf */,
+				6606AA561ED80F250099874D /* InterFaceDaMa-BoldItalic.ttf */,
+				6606AA571ED80F250099874D /* InterFaceDaMa-Italic.ttf */,
+				6606AA581ED80F250099874D /* InterFaceDaMa-Regular.ttf */,
+			);
+			path = InterFaceDaMa;
 			sourceTree = "<group>";
 		};
 		B0D699011D035FA1003B4CCD = {
@@ -490,20 +510,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6606AA5C1ED80F250099874D /* InterFaceDaMa-Regular.ttf in Resources */,
 				1A958FBA1D397BE900D56699 /* Lora-Italic.ttf in Resources */,
 				1A958FB21D397BE900D56699 /* Andada-Italic.otf in Resources */,
 				1A958FBF1D397BE900D56699 /* Raleway-Regular.ttf in Resources */,
 				1A958FBB1D397BE900D56699 /* Lora-Regular.ttf in Resources */,
 				1A958FB41D397BE900D56699 /* Lato-Bold.ttf in Resources */,
 				1A958FB31D397BE900D56699 /* Andada-Regular.otf in Resources */,
+				6606AA5A1ED80F250099874D /* InterFaceDaMa-BoldItalic.ttf in Resources */,
 				1A958FB81D397BE900D56699 /* Lora-Bold.ttf in Resources */,
 				1A958FBE1D397BE900D56699 /* Raleway-Italic.ttf in Resources */,
 				1A9590151D397C1300D56699 /* Images.xcassets in Resources */,
+				6606AA5B1ED80F250099874D /* InterFaceDaMa-Italic.ttf in Resources */,
 				1A958FAF1D397BE900D56699 /* Bridge.js in Resources */,
 				1A958FBC1D397BE900D56699 /* Raleway-Bold.ttf in Resources */,
 				1A958FB71D397BE900D56699 /* Lato-Regular.ttf in Resources */,
 				1A9590121D397BE900D56699 /* Style.css in Resources */,
 				1A958FB01D397BE900D56699 /* Andada-Bold.otf in Resources */,
+				6606AA591ED80F250099874D /* InterFaceDaMa-Bold.ttf in Resources */,
 				1A9590171D397CAF00D56699 /* FolioReaderKit.podspec in Resources */,
 				1A958FB51D397BE900D56699 /* Lato-BoldItalic.ttf in Resources */,
 				1A958FB61D397BE900D56699 /* Lato-Italic.ttf in Resources */,

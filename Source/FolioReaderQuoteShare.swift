@@ -66,7 +66,7 @@ class FolioReaderQuoteShare: UIViewController {
         quoteLabel = UILabel()
         quoteLabel.text = quoteText
         quoteLabel.textAlignment = .center
-        quoteLabel.font = UIFont(name: "Andada-Regular", size: 26)
+        quoteLabel.font = UIFont(name: "InterFaceDaMa-Bold", size: 26)
         quoteLabel.textColor = UIColor.white
         quoteLabel.numberOfLines = 0
         quoteLabel.baselineAdjustment = .alignCenters
