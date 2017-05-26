@@ -10,7 +10,7 @@ import UIKit
 import FontBlaster
 
 var readerConfig: FolioReaderConfig!
-var book: FRBook!
+public var book: FRBook!
 
 /// Reader container
 open class FolioReaderContainer: UIViewController {
