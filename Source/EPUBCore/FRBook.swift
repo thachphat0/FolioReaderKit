@@ -12,7 +12,7 @@ import UIKit
 open class FRBook: NSObject {
     var resources = FRResources()
     var metadata = FRMetadata()
-    var spine = FRSpine()
+    public var spine = FRSpine()
     var smils = FRSmils()
     var tableOfContents: [FRTocReference]!
     public var flatTableOfContents: [FRTocReference]!
