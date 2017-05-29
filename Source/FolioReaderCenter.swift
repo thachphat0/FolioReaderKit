@@ -13,7 +13,7 @@ let reuseIdentifier = "Cell"
 var pageWidth: CGFloat!
 var pageHeight: CGFloat!
 var previousPageNumber: Int!
-var currentPageNumber: Int!
+public var currentPageNumber: Int!
 var nextPageNumber: Int!
 var pageScrollDirection = ScrollDirection()
 var isScrolling = false

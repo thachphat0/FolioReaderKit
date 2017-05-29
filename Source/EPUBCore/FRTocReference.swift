@@ -9,7 +9,7 @@
 import UIKit
 
 open class FRTocReference: NSObject {
-    var resource: FRResource?
+    public var resource: FRResource?
     public var title: String!
     var fragmentID: String?
     var children: [FRTocReference]!
