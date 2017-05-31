@@ -37,6 +37,9 @@ var isScrolling = false
      - returns: The adjusted HTML content as `String`. This is the content which will be loaded into the given `FolioReaderPage`
 	 */
 	@objc optional func htmlContentForPage(_ page: FolioReaderPage, htmlContent: String) -> String
+    
+    @objc optional func centerScrollViewDidScroll(_ scrollView: UIScrollView)
+    @objc optional func centerScrollViewDidEndDecelerating(_ scrollView: UIScrollView)
 }
 
 /// The base reader class
@@ -1002,6 +1005,8 @@ open class FolioReaderCenter: UIViewController, UICollectionViewDelegate, UIColl
         }
         
         pageScrollDirection = scrollView.contentOffset.forDirection() < pointNow.forDirection() ? .negative() : .positive()
+        
+        delegate?.centerScrollViewDidScroll?(scrollView)
     }
     
     open func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
@@ -1018,6 +1023,8 @@ open class FolioReaderCenter: UIViewController, UICollectionViewDelegate, UIColl
         }
         
         scrollScrubber?.scrollViewDidEndDecelerating(scrollView)
+        
+        delegate?.centerScrollViewDidEndDecelerating?(scrollView)
     }
     
     open func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
