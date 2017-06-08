@@ -17,7 +17,7 @@ open class FolioReaderContainer: UIViewController {
     var shouldHideStatusBar = true
     var shouldRemoveEpub = true
     var epubPath: String
-    var book: FRBook
+    public var book: FRBook
 
     // Mark those property as public so they can accessed from other classes/subclasses.
     public var readerConfig: FolioReaderConfig

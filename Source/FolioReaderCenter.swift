@@ -62,7 +62,7 @@ open class FolioReaderCenter: UIViewController, UICollectionViewDelegate, UIColl
     var pageScrollDirection = ScrollDirection()
     var nextPageNumber: Int = 0
     var previousPageNumber: Int = 0
-    var currentPageNumber: Int = 0
+    public var currentPageNumber: Int = 0
     var pageWidth: CGFloat = 0.0
     var pageHeight: CGFloat = 0.0
 
