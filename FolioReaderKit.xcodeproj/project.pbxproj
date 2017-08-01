@@ -65,6 +65,25 @@
 		6606AA5A1ED80F250099874D /* InterFaceDaMa-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6606AA561ED80F250099874D /* InterFaceDaMa-BoldItalic.ttf */; };
 		6606AA5B1ED80F250099874D /* InterFaceDaMa-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6606AA571ED80F250099874D /* InterFaceDaMa-Italic.ttf */; };
 		6606AA5C1ED80F250099874D /* InterFaceDaMa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6606AA581ED80F250099874D /* InterFaceDaMa-Regular.ttf */; };
+		666C29CE1F309023007E6F8A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 666C29BB1F309023007E6F8A /* OFL.txt */; };
+		666C29CF1F309023007E6F8A /* SkolarSansLatin-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29BC1F309023007E6F8A /* SkolarSansLatin-Black.ttf */; };
+		666C29D01F309023007E6F8A /* SkolarSansLatin-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29BD1F309023007E6F8A /* SkolarSansLatin-BlackItalic.ttf */; };
+		666C29D11F309023007E6F8A /* SkolarSansLatin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29BE1F309023007E6F8A /* SkolarSansLatin-Bold.ttf */; };
+		666C29D21F309023007E6F8A /* SkolarSansLatin-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29BF1F309023007E6F8A /* SkolarSansLatin-BoldItalic.ttf */; };
+		666C29D31F309023007E6F8A /* SkolarSansLatin-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C01F309023007E6F8A /* SkolarSansLatin-ExtraBold.ttf */; };
+		666C29D41F309023007E6F8A /* SkolarSansLatin-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C11F309023007E6F8A /* SkolarSansLatin-ExtraBoldItalic.ttf */; };
+		666C29D51F309023007E6F8A /* SkolarSansLatin-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C21F309023007E6F8A /* SkolarSansLatin-ExtraLight.ttf */; };
+		666C29D61F309023007E6F8A /* SkolarSansLatin-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C31F309023007E6F8A /* SkolarSansLatin-ExtraLightItalic.ttf */; };
+		666C29D71F309023007E6F8A /* SkolarSansLatin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C41F309023007E6F8A /* SkolarSansLatin-Italic.ttf */; };
+		666C29D81F309023007E6F8A /* SkolarSansLatin-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C51F309023007E6F8A /* SkolarSansLatin-Light.ttf */; };
+		666C29D91F309023007E6F8A /* SkolarSansLatin-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C61F309023007E6F8A /* SkolarSansLatin-LightItalic.ttf */; };
+		666C29DA1F309023007E6F8A /* SkolarSansLatin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C71F309023007E6F8A /* SkolarSansLatin-Medium.ttf */; };
+		666C29DB1F309023007E6F8A /* SkolarSansLatin-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C81F309023007E6F8A /* SkolarSansLatin-MediumItalic.ttf */; };
+		666C29DC1F309023007E6F8A /* SkolarSansLatin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29C91F309023007E6F8A /* SkolarSansLatin-Regular.ttf */; };
+		666C29DD1F309023007E6F8A /* SkolarSansLatin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29CA1F309023007E6F8A /* SkolarSansLatin-SemiBold.ttf */; };
+		666C29DE1F309023007E6F8A /* SkolarSansLatin-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29CB1F309023007E6F8A /* SkolarSansLatin-SemiBoldItalic.ttf */; };
+		666C29DF1F309023007E6F8A /* SkolarSansLatin-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29CC1F309023007E6F8A /* SkolarSansLatin-Thin.ttf */; };
+		666C29E01F309023007E6F8A /* SkolarSansLatin-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C29CD1F309023007E6F8A /* SkolarSansLatin-ThinItalic.ttf */; };
 		669398181F171F6E00CBC0EA /* Times.dfont in Resources */ = {isa = PBXBuildFile; fileRef = 669398171F171F6E00CBC0EA /* Times.dfont */; };
 		6693981A1F17220D00CBC0EA /* HelveticaNeue.dfont in Resources */ = {isa = PBXBuildFile; fileRef = 669398191F17220D00CBC0EA /* HelveticaNeue.dfont */; };
 		B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -149,6 +168,25 @@
 		6606AA561ED80F250099874D /* InterFaceDaMa-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterFaceDaMa-BoldItalic.ttf"; sourceTree = "<group>"; };
 		6606AA571ED80F250099874D /* InterFaceDaMa-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterFaceDaMa-Italic.ttf"; sourceTree = "<group>"; };
 		6606AA581ED80F250099874D /* InterFaceDaMa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterFaceDaMa-Regular.ttf"; sourceTree = "<group>"; };
+		666C29BB1F309023007E6F8A /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		666C29BC1F309023007E6F8A /* SkolarSansLatin-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-Black.ttf"; sourceTree = "<group>"; };
+		666C29BD1F309023007E6F8A /* SkolarSansLatin-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-BlackItalic.ttf"; sourceTree = "<group>"; };
+		666C29BE1F309023007E6F8A /* SkolarSansLatin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-Bold.ttf"; sourceTree = "<group>"; };
+		666C29BF1F309023007E6F8A /* SkolarSansLatin-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-BoldItalic.ttf"; sourceTree = "<group>"; };
+		666C29C01F309023007E6F8A /* SkolarSansLatin-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-ExtraBold.ttf"; sourceTree = "<group>"; };
+		666C29C11F309023007E6F8A /* SkolarSansLatin-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		666C29C21F309023007E6F8A /* SkolarSansLatin-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-ExtraLight.ttf"; sourceTree = "<group>"; };
+		666C29C31F309023007E6F8A /* SkolarSansLatin-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		666C29C41F309023007E6F8A /* SkolarSansLatin-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-Italic.ttf"; sourceTree = "<group>"; };
+		666C29C51F309023007E6F8A /* SkolarSansLatin-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-Light.ttf"; sourceTree = "<group>"; };
+		666C29C61F309023007E6F8A /* SkolarSansLatin-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-LightItalic.ttf"; sourceTree = "<group>"; };
+		666C29C71F309023007E6F8A /* SkolarSansLatin-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-Medium.ttf"; sourceTree = "<group>"; };
+		666C29C81F309023007E6F8A /* SkolarSansLatin-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-MediumItalic.ttf"; sourceTree = "<group>"; };
+		666C29C91F309023007E6F8A /* SkolarSansLatin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-Regular.ttf"; sourceTree = "<group>"; };
+		666C29CA1F309023007E6F8A /* SkolarSansLatin-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-SemiBold.ttf"; sourceTree = "<group>"; };
+		666C29CB1F309023007E6F8A /* SkolarSansLatin-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		666C29CC1F309023007E6F8A /* SkolarSansLatin-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-Thin.ttf"; sourceTree = "<group>"; };
+		666C29CD1F309023007E6F8A /* SkolarSansLatin-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkolarSansLatin-ThinItalic.ttf"; sourceTree = "<group>"; };
 		669398171F171F6E00CBC0EA /* Times.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = Times.dfont; sourceTree = "<group>"; };
 		669398191F17220D00CBC0EA /* HelveticaNeue.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.dfont; sourceTree = "<group>"; };
 		B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -273,6 +311,7 @@
 		1A958F271D397BE900D56699 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				666C29BA1F309023007E6F8A /* SkolarSansLatin */,
 				669398191F17220D00CBC0EA /* HelveticaNeue.dfont */,
 				669398171F171F6E00CBC0EA /* Times.dfont */,
 				6606AA541ED80F250099874D /* InterFaceDaMa */,
@@ -337,6 +376,32 @@
 				6606AA581ED80F250099874D /* InterFaceDaMa-Regular.ttf */,
 			);
 			path = InterFaceDaMa;
+			sourceTree = "<group>";
+		};
+		666C29BA1F309023007E6F8A /* SkolarSansLatin */ = {
+			isa = PBXGroup;
+			children = (
+				666C29BB1F309023007E6F8A /* OFL.txt */,
+				666C29BC1F309023007E6F8A /* SkolarSansLatin-Black.ttf */,
+				666C29BD1F309023007E6F8A /* SkolarSansLatin-BlackItalic.ttf */,
+				666C29BE1F309023007E6F8A /* SkolarSansLatin-Bold.ttf */,
+				666C29BF1F309023007E6F8A /* SkolarSansLatin-BoldItalic.ttf */,
+				666C29C01F309023007E6F8A /* SkolarSansLatin-ExtraBold.ttf */,
+				666C29C11F309023007E6F8A /* SkolarSansLatin-ExtraBoldItalic.ttf */,
+				666C29C21F309023007E6F8A /* SkolarSansLatin-ExtraLight.ttf */,
+				666C29C31F309023007E6F8A /* SkolarSansLatin-ExtraLightItalic.ttf */,
+				666C29C41F309023007E6F8A /* SkolarSansLatin-Italic.ttf */,
+				666C29C51F309023007E6F8A /* SkolarSansLatin-Light.ttf */,
+				666C29C61F309023007E6F8A /* SkolarSansLatin-LightItalic.ttf */,
+				666C29C71F309023007E6F8A /* SkolarSansLatin-Medium.ttf */,
+				666C29C81F309023007E6F8A /* SkolarSansLatin-MediumItalic.ttf */,
+				666C29C91F309023007E6F8A /* SkolarSansLatin-Regular.ttf */,
+				666C29CA1F309023007E6F8A /* SkolarSansLatin-SemiBold.ttf */,
+				666C29CB1F309023007E6F8A /* SkolarSansLatin-SemiBoldItalic.ttf */,
+				666C29CC1F309023007E6F8A /* SkolarSansLatin-Thin.ttf */,
+				666C29CD1F309023007E6F8A /* SkolarSansLatin-ThinItalic.ttf */,
+			);
+			path = SkolarSansLatin;
 			sourceTree = "<group>";
 		};
 		B0D699011D035FA1003B4CCD = {
@@ -516,26 +581,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				666C29D41F309023007E6F8A /* SkolarSansLatin-ExtraBoldItalic.ttf in Resources */,
 				6606AA5C1ED80F250099874D /* InterFaceDaMa-Regular.ttf in Resources */,
 				1A958FBA1D397BE900D56699 /* Lora-Italic.ttf in Resources */,
 				1A958FB21D397BE900D56699 /* Andada-Italic.otf in Resources */,
 				1A958FBF1D397BE900D56699 /* Raleway-Regular.ttf in Resources */,
+				666C29DC1F309023007E6F8A /* SkolarSansLatin-Regular.ttf in Resources */,
+				666C29D31F309023007E6F8A /* SkolarSansLatin-ExtraBold.ttf in Resources */,
 				1A958FBB1D397BE900D56699 /* Lora-Regular.ttf in Resources */,
 				1A958FB41D397BE900D56699 /* Lato-Bold.ttf in Resources */,
+				666C29D81F309023007E6F8A /* SkolarSansLatin-Light.ttf in Resources */,
 				1A958FB31D397BE900D56699 /* Andada-Regular.otf in Resources */,
 				6606AA5A1ED80F250099874D /* InterFaceDaMa-BoldItalic.ttf in Resources */,
+				666C29D71F309023007E6F8A /* SkolarSansLatin-Italic.ttf in Resources */,
+				666C29D01F309023007E6F8A /* SkolarSansLatin-BlackItalic.ttf in Resources */,
+				666C29D91F309023007E6F8A /* SkolarSansLatin-LightItalic.ttf in Resources */,
+				666C29DE1F309023007E6F8A /* SkolarSansLatin-SemiBoldItalic.ttf in Resources */,
+				666C29CF1F309023007E6F8A /* SkolarSansLatin-Black.ttf in Resources */,
 				1A958FB81D397BE900D56699 /* Lora-Bold.ttf in Resources */,
+				666C29D11F309023007E6F8A /* SkolarSansLatin-Bold.ttf in Resources */,
 				1A958FBE1D397BE900D56699 /* Raleway-Italic.ttf in Resources */,
+				666C29DB1F309023007E6F8A /* SkolarSansLatin-MediumItalic.ttf in Resources */,
+				666C29DF1F309023007E6F8A /* SkolarSansLatin-Thin.ttf in Resources */,
 				1A9590151D397C1300D56699 /* Images.xcassets in Resources */,
 				6606AA5B1ED80F250099874D /* InterFaceDaMa-Italic.ttf in Resources */,
+				666C29CE1F309023007E6F8A /* OFL.txt in Resources */,
 				6693981A1F17220D00CBC0EA /* HelveticaNeue.dfont in Resources */,
 				1A958FAF1D397BE900D56699 /* Bridge.js in Resources */,
+				666C29E01F309023007E6F8A /* SkolarSansLatin-ThinItalic.ttf in Resources */,
 				1A958FBC1D397BE900D56699 /* Raleway-Bold.ttf in Resources */,
+				666C29D61F309023007E6F8A /* SkolarSansLatin-ExtraLightItalic.ttf in Resources */,
 				1A958FB71D397BE900D56699 /* Lato-Regular.ttf in Resources */,
 				1A9590121D397BE900D56699 /* Style.css in Resources */,
+				666C29D21F309023007E6F8A /* SkolarSansLatin-BoldItalic.ttf in Resources */,
+				666C29D51F309023007E6F8A /* SkolarSansLatin-ExtraLight.ttf in Resources */,
+				666C29DA1F309023007E6F8A /* SkolarSansLatin-Medium.ttf in Resources */,
 				1A958FB01D397BE900D56699 /* Andada-Bold.otf in Resources */,
 				6606AA591ED80F250099874D /* InterFaceDaMa-Bold.ttf in Resources */,
 				1A9590171D397CAF00D56699 /* FolioReaderKit.podspec in Resources */,
+				666C29DD1F309023007E6F8A /* SkolarSansLatin-SemiBold.ttf in Resources */,
 				1A958FB51D397BE900D56699 /* Lato-BoldItalic.ttf in Resources */,
 				669398181F171F6E00CBC0EA /* Times.dfont in Resources */,
 				1A958FB61D397BE900D56699 /* Lato-Italic.ttf in Resources */,
